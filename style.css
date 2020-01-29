@@ -4,7 +4,11 @@ body {
     background-color: coral;
 }
 
-div.first {
+div {
+    margin: 20px;
+}
+
+.first {
     padding: 10px;
     border-radius: 15px;
     border: solid cornsilk 3px;
@@ -15,7 +19,7 @@ div.first {
 
 #my:before {
     font-size: 30px;
-    content: 'x';
+    content: 'X';
     padding: 0;
     border-radius: 20px;
     border: solid rgb(81, 93, 167) 3px;
@@ -27,4 +31,39 @@ div.first {
     position: absolute;
     top: -15px;
     right: -15px;
+    background-color: cyan;
+    font-family: 'Montserrat', sans-serif;
+    cursor: pointer;
+}
+
+.second {
+    padding: 10px;
+    border-radius: 15px;
+    border: solid cornsilk 3px;
+    width: 250px;
+    height: 250px;
+    position: relative;
+}
+
+.second div {
+    font-size: 35px;
+    background-color: darkgray;
+    color: darkmagenta;
+    border: solid darkmagenta 3px;
+    width: 40px;
+    height: 40px;
+    border-radius: 20px;
+    display:table-cell;
+    vertical-align: middle;
+    text-align: center;
+    position: absolute;
+    top: -40px;
+    right: -40px;
+    font-family: 'Montserrat', sans-serif;
+    cursor: pointer;
+}
+
+.second div:hover {
+    background-color: rgb(53, 51, 51);
+    color: wheat;
 }
